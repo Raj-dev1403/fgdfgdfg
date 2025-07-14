@@ -1,0 +1,2190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScriptList xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <scripts>
+        
+            
+                
+                    <Script>
+                        <group>FNX320_FCU</group>
+                        <label>SPEED_PUSH</label>
+                        <script>(L:S_FCU_SPEED, Number) -- (>L:S_FCU_SPEED, Number) </script>
+                    </Script>
+                
+            
+                
+                    <Script>
+                        <group>FNX320_FCU</group>
+                        <label>SPEED_PULL</label>
+                        <script>(L:S_FCU_SPEED, Number) ++ (>L:S_FCU_SPEED, Number) </script>
+                    </Script>
+                
+            
+                
+                    <Script>
+                        <group>FNX320_FCU</group>
+                        <label>SPEED_INC</label>
+                        <script>(L:E_FCU_SPEED, Number) ++ (>L:E_FCU_SPEED, Number) </script>
+                    </Script>
+                
+            
+                
+                    <Script>
+                        <group>FNX320_FCU</group>
+                        <label>SPEED_DEC</label>
+                        <script>(L:E_FCU_SPEED, Number) -- (>L:E_FCU_SPEED, Number) </script>
+                    </Script>
+                
+            
+                
+                    <Script>
+                        <group>FNX320_FCU</group>
+                        <label>HEADING_PUSH</label>
+                        <script>(L:S_FCU_HEADING, Number) -- (>L:S_FCU_HEADING, Number) </script>
+                    </Script>
+                
+            
+                
+                    <Script>
+                        <group>FNX320_FCU</group>
+                        <label>HEADING_PULL</label>
+                        <script>(L:S_FCU_HEADING, Number) ++ (>L:S_FCU_HEADING, Number) </script>
+                    </Script>
+                
+            
+                
+                    <Script>
+                        <group>FNX320_FCU</group>
+                        <label>HEADING_INC</label>
+                        <script>(L:E_FCU_HEADING, Number) ++ (>L:E_FCU_HEADING, Number) </script>
+                    </Script>
+                
+            
+                
+                    <Script>
+                        <group>FNX320_FCU</group>
+                        <label>HEADING_DEC</label>
+                        <script>(L:E_FCU_HEADING, Number) -- (>L:E_FCU_HEADING, Number) </script>
+                    </Script>
+                
+            
+                
+                    <Script>
+                        <group>FNX320_FCU</group>
+                        <label>ALTITUDE_PUSH</label>
+                        <script>(L:S_FCU_ALTITUDE, Number) -- (>L:S_FCU_ALTITUDE, Number) </script>
+                    </Script>
+                
+            
+                
+                    <Script>
+                        <group>FNX320_FCU</group>
+                        <label>ALTITUDE_PULL</label>
+                        <script>(L:S_FCU_ALTITUDE, Number) ++ (>L:S_FCU_ALTITUDE, Number) </script>
+                    </Script>
+                
+            
+                
+                    <Script>
+                        <group>FNX320_FCU</group>
+                        <label>ALTITUDE_INC</label>
+                        <script>(L:E_FCU_ALTITUDE, Number) ++ (>L:E_FCU_ALTITUDE, Number) </script>
+                    </Script>
+                
+            
+                
+                    <Script>
+                        <group>FNX320_FCU</group>
+                        <label>ALTITUDE_DEC</label>
+                        <script>(L:E_FCU_ALTITUDE, Number) -- (>L:E_FCU_ALTITUDE, Number) </script>
+                    </Script>
+                
+            
+                
+                    <Script>
+                        <group>FNX320_FCU</group>
+                        <label>VERTICAL_SPEED_PUSH</label>
+                        <script>(L:S_FCU_VERTICAL_SPEED, Number) -- (>L:S_FCU_VERTICAL_SPEED, Number) </script>
+                    </Script>
+                
+            
+                
+                    <Script>
+                        <group>FNX320_FCU</group>
+                        <label>VERTICAL_SPEED_PULL</label>
+                        <script>(L:S_FCU_VERTICAL_SPEED, Number) ++ (>L:S_FCU_VERTICAL_SPEED, Number) </script>
+                    </Script>
+                
+            
+                
+                    <Script>
+                        <group>FNX320_FCU</group>
+                        <label>VERTICAL_SPEED_INC</label>
+                        <script>(L:E_FCU_VS, Number) ++ (>L:E_FCU_VS, Number) </script>
+                    </Script>
+                
+            
+                
+                    <Script>
+                        <group>FNX320_FCU</group>
+                        <label>VERTICAL_SPEED_DEC</label>
+                        <script>(L:E_FCU_VS, Number) -- (>L:E_FCU_VS, Number) </script>
+                    </Script>
+                
+            
+                
+                    <Script>
+                        <group>FNX320_FCU</group>
+                        <label>SPD_MACH</label>
+                        <script>1 (>L:S_FCU_SPD_MACH, Number) (SLEEP:100) 2 (>L:S_FCU_SPD_MACH, Number) </script>
+                    </Script>
+                
+            
+                
+                    <Script>
+                        <group>FNX320_FCU</group>
+                        <label>HDGVS_TRKFPA</label>
+                        <script>1 (>L:S_FCU_HDGVS_TRKFPA, Number) (SLEEP:100) 2 (>L:S_FCU_HDGVS_TRKFPA, Number) </script>
+                    </Script>
+                
+            
+                
+                    <Script>
+                        <group>FNX320_FCU</group>
+                        <label>METRIC_ALT</label>
+                        <script>1 (>L:S_FCU_METRIC_ALT, Number) (SLEEP:100) 2 (>L:S_FCU_METRIC_ALT, Number) </script>
+                    </Script>
+                
+            
+                
+                    <Script>
+                        <group>FNX320_FCU</group>
+                        <label>AP1</label>
+                        <script>1 (>L:S_FCU_AP1, Number) (SLEEP:100) 2 (>L:S_FCU_AP1, Number) </script>
+                    </Script>
+                
+            
+                
+                    <Script>
+                        <group>FNX320_FCU</group>
+                        <label>AP2</label>
+                        <script>1 (>L:S_FCU_AP2, Number) (SLEEP:100) 2 (>L:S_FCU_AP2, Number) </script>
+                    </Script>
+                
+            
+                
+                    <Script>
+                        <group>FNX320_FCU</group>
+                        <label>LOC</label>
+                        <script>1 (>L:S_FCU_LOC, Number) (SLEEP:100) 2 (>L:S_FCU_LOC, Number) </script>
+                    </Script>
+                
+            
+                
+                    <Script>
+                        <group>FNX320_FCU</group>
+                        <label>ATHR</label>
+                        <script>1 (>L:S_FCU_ATHR, Number) (SLEEP:100) 2 (>L:S_FCU_ATHR, Number) </script>
+                    </Script>
+                
+            
+                
+                    <Script>
+                        <group>FNX320_FCU</group>
+                        <label>EXPED</label>
+                        <script>1 (>L:S_FCU_EXPED, Number) (SLEEP:100) 2 (>L:S_FCU_EXPED, Number) </script>
+                    </Script>
+                
+            
+                
+                    <Script>
+                        <group>FNX320_FCU</group>
+                        <label>APPR</label>
+                        <script>1 (>L:S_FCU_APPR, Number) (SLEEP:100) 2 (>L:S_FCU_APPR, Number) </script>
+                    </Script>
+                
+            
+                
+                    <Script>
+                        <group>FNX320_FCU</group>
+                        <label>ALTITUDE_SCALE</label>
+                        <script>1 (>L:S_FCU_ALTITUDE_SCALE, Number) (SLEEP:100) 2 (>L:S_FCU_ALTITUDE_SCALE, Number) </script>
+                    </Script>
+                
+            
+        
+            
+                
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>EXT_LT_RWY_TURNOFF_OFF</label>
+                            <script>0 (>L:S_OH_EXT_LT_RWY_TURNOFF, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>EXT_LT_RWY_TURNOFF_ON</label>
+                            <script>1 (>L:S_OH_EXT_LT_RWY_TURNOFF, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>EXT_LT_RWY_TURNOFF_TOGGLE</label>
+                            <script>(L:S_OH_EXT_LT_RWY_TURNOFF, Number) ! (>L:S_OH_EXT_LT_RWY_TURNOFF, Number) </script>
+                        </Script>
+                    
+                
+            
+                
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>EXT_LT_WING_OFF</label>
+                            <script>0 (>L:S_OH_EXT_LT_WING, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>EXT_LT_WING_ON</label>
+                            <script>1 (>L:S_OH_EXT_LT_WING, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>EXT_LT_WING_TOGGLE</label>
+                            <script>(L:S_OH_EXT_LT_WING, Number) ! (>L:S_OH_EXT_LT_WING, Number) </script>
+                        </Script>
+                    
+                
+            
+                
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>EXT_LT_BEACON_OFF</label>
+                            <script>0 (>L:S_OH_EXT_LT_BEACON, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>EXT_LT_BEACON_ON</label>
+                            <script>1 (>L:S_OH_EXT_LT_BEACON, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>EXT_LT_BEACON_TOGGLE</label>
+                            <script>(L:S_OH_EXT_LT_BEACON, Number) ! (>L:S_OH_EXT_LT_BEACON, Number) </script>
+                        </Script>
+                    
+                
+            
+                
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>EXT_LT_NAV_LOGO_OFF</label>
+                            <script>0 (>L:S_OH_EXT_LT_NAV_LOGO, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>EXT_LT_NAV_LOGO_NAV</label>
+                            <script>1 (>L:S_OH_EXT_LT_NAV_LOGO, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>EXT_LT_NAV_LOGO_LOGO</label>
+                            <script>2 (>L:S_OH_EXT_LT_NAV_LOGO, Number) </script>
+                        </Script>
+                    
+                
+            
+                
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>EXT_LT_STROBE_OFF</label>
+                            <script>0 (>L:S_OH_EXT_LT_STROBE, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>EXT_LT_STROBE_AUTO</label>
+                            <script>1 (>L:S_OH_EXT_LT_STROBE, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>EXT_LT_STROBE_ON</label>
+                            <script>2 (>L:S_OH_EXT_LT_STROBE, Number) </script>
+                        </Script>
+                    
+                
+            
+                
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>EXT_LT_LANDING_L_RETRACT</label>
+                            <script>0 (>L:S_OH_EXT_LT_LANDING_L, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>EXT_LT_LANDING_L_OFF</label>
+                            <script>1 (>L:S_OH_EXT_LT_LANDING_L, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>EXT_LT_LANDING_L_ON</label>
+                            <script>2 (>L:S_OH_EXT_LT_LANDING_L, Number) </script>
+                        </Script>
+                    
+                
+            
+                
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>EXT_LT_LANDING_R_RETRACT</label>
+                            <script>0 (>L:S_OH_EXT_LT_LANDING_R, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>EXT_LT_LANDING_R_OFF</label>
+                            <script>1 (>L:S_OH_EXT_LT_LANDING_R, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>EXT_LT_LANDING_R_ON</label>
+                            <script>2 (>L:S_OH_EXT_LT_LANDING_R, Number) </script>
+                        </Script>
+                    
+                
+            
+                
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>EXT_LT_LANDING_BOTH_RETRACT</label>
+                            <script>0 (>L:S_OH_EXT_LT_LANDING_L, Number) 0 (>L:S_OH_EXT_LT_LANDING_R, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>EXT_LT_LANDING_BOTH_OFF</label>
+                            <script>1 (>L:S_OH_EXT_LT_LANDING_L, Number) 1 (>L:S_OH_EXT_LT_LANDING_R, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>EXT_LT_LANDING_BOTH_ON</label>
+                            <script>2 (>L:S_OH_EXT_LT_LANDING_L, Number) 2 (>L:S_OH_EXT_LT_LANDING_R, Number) </script>
+                        </Script>
+                    
+                
+            
+                
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>EXT_LT_NOSE_OFF</label>
+                            <script>0 (>L:S_OH_EXT_LT_NOSE, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>EXT_LT_NOSE_TAXI</label>
+                            <script>1 (>L:S_OH_EXT_LT_NOSE, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>EXT_LT_NOSE_TO</label>
+                            <script>2 (>L:S_OH_EXT_LT_NOSE, Number) </script>
+                        </Script>
+                    
+                
+            
+                
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>SIGNS_BELTS_OFF</label>
+                            <script>0 (>L:S_OH_SIGNS, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>SIGNS_BELTS_ON</label>
+                            <script>1 (>L:S_OH_SIGNS, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>SIGNS_BELTS_TOGGLE</label>
+                            <script>(L:S_OH_SIGNS, Number) ! (>L:S_OH_SIGNS, Number) </script>
+                        </Script>
+                    
+                
+            
+                
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>SIGNS_SMOKING_OFF</label>
+                            <script>0 (>L:S_OH_SIGNS_SMOKING, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>SIGNS_SMOKING_AUTO</label>
+                            <script>1 (>L:S_OH_SIGNS_SMOKING, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>SIGNS_SMOKING_ON</label>
+                            <script>2 (>L:S_OH_SIGNS_SMOKING, Number) </script>
+                        </Script>
+                    
+                
+            
+                
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>INT_LT_EMER_OFF</label>
+                            <script>0 (>L:S_OH_INT_LT_EMER, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>INT_LT_EMER_ARM</label>
+                            <script>1 (>L:S_OH_INT_LT_EMER, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>INT_LT_EMER_ON</label>
+                            <script>2 (>L:S_OH_INT_LT_EMER, Number) </script>
+                        </Script>
+                    
+                
+            
+                
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>INT_LT_DOME_OFF</label>
+                            <script>0 (>L:S_OH_INT_LT_DOME, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>INT_LT_DOME_DIM</label>
+                            <script>1 (>L:S_OH_INT_LT_DOME, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>INT_LT_DOME_BRT</label>
+                            <script>2 (>L:S_OH_INT_LT_DOME, Number) </script>
+                        </Script>
+                    
+                
+            
+                
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>IN_LT_ANN_LT_BRT</label>
+                            <script>0 (>L:S_OH_IN_LT_ANN_LT, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>IN_LT_ANN_LT_DIM</label>
+                            <script>1 (>L:S_OH_IN_LT_ANN_LT, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>IN_LT_ANN_LT_TEST</label>
+                            <script>2 (>L:S_OH_IN_LT_ANN_LT, Number) </script>
+                        </Script>
+                    
+                
+            
+                
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>WIPER_CAPT_OFF</label>
+                            <script>0 (>L:S_MISC_WIPER_CAPT, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>WIPER_CAPT_SLOW</label>
+                            <script>1 (>L:S_MISC_WIPER_CAPT, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>WIPER_CAPT_FAST</label>
+                            <script>2 (>L:S_MISC_WIPER_CAPT, Number) </script>
+                        </Script>
+                    
+                
+            
+                
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>WIPER_FO_OFF</label>
+                            <script>0 (>L:S_MISC_WIPER_FO, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>WIPER_FO_SLOW</label>
+                            <script>1 (>L:S_MISC_WIPER_FO, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>WIPER_FO_FAST</label>
+                            <script>2 (>L:S_MISC_WIPER_FO, Number) </script>
+                        </Script>
+                    
+                
+            
+                
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>NAV_IR1_MODE_OFF</label>
+                            <script>0 (>L:S_OH_NAV_IR1_MODE, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>NAV_IR1_MODE_NAV</label>
+                            <script>1 (>L:S_OH_NAV_IR1_MODE, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>NAV_IR1_MODE_ATT</label>
+                            <script>2 (>L:S_OH_NAV_IR1_MODE, Number) </script>
+                        </Script>
+                    
+                
+            
+                
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>NAV_IR2_MODE_OFF</label>
+                            <script>0 (>L:S_OH_NAV_IR2_MODE, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>NAV_IR2_MODE_NAV</label>
+                            <script>1 (>L:S_OH_NAV_IR2_MODE, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>NAV_IR2_MODE_ATT</label>
+                            <script>2 (>L:S_OH_NAV_IR2_MODE, Number) </script>
+                        </Script>
+                    
+                
+            
+                
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>NAV_IR3_MODE_OFF</label>
+                            <script>0 (>L:S_OH_NAV_IR3_MODE, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>NAV_IR3_MODE_NAV</label>
+                            <script>1 (>L:S_OH_NAV_IR3_MODE, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>NAV_IR3_MODE_ATT</label>
+                            <script>2 (>L:S_OH_NAV_IR3_MODE, Number) </script>
+                        </Script>
+                    
+                
+            
+                
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>ELEC_APU_MASTER_OFF</label>
+                            <script>0 (>L:S_OH_ELEC_APU_MASTER, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>ELEC_APU_MASTER_ON</label>
+                            <script>1 (>L:S_OH_ELEC_APU_MASTER, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>ELEC_APU_MASTER_TOGGLE</label>
+                            <script>(L:S_OH_ELEC_APU_MASTER, Number) ! (>L:S_OH_ELEC_APU_MASTER, Number) </script>
+                        </Script>
+                    
+                
+            
+                
+                    <Script>
+                        <group>FNX320_OH</group>
+                        <label>ELEC_APU_START</label>
+                        <script>1 (>L:S_OH_ELEC_APU_START, Number) (SLEEP:100) 2 (>L:S_OH_ELEC_APU_START, Number) </script>
+                    </Script>
+                
+            
+                
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>PNEUMATIC_APU_BLEED_OFF</label>
+                            <script>0 (>L:S_OH_PNEUMATIC_APU_BLEED, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>PNEUMATIC_APU_BLEED_ON</label>
+                            <script>1 (>L:S_OH_PNEUMATIC_APU_BLEED, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>PNEUMATIC_APU_BLEED_TOGGLE</label>
+                            <script>(L:S_OH_PNEUMATIC_APU_BLEED, Number) ! (>L:S_OH_PNEUMATIC_APU_BLEED, Number) </script>
+                        </Script>
+                    
+                
+            
+                
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>OXYGEN_CREW_OXYGEN_OFF</label>
+                            <script>0 (>L:S_OH_OXYGEN_CREW_OXYGEN, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>OXYGEN_CREW_OXYGEN_ON</label>
+                            <script>1 (>L:S_OH_OXYGEN_CREW_OXYGEN, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>OXYGEN_CREW_OXYGEN_TOGGLE</label>
+                            <script>(L:S_OH_OXYGEN_CREW_OXYGEN, Number) ! (>L:S_OH_OXYGEN_CREW_OXYGEN, Number) </script>
+                        </Script>
+                    
+                
+            
+                
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>FUEL_LEFT_1_OFF</label>
+                            <script>0 (>L:S_OH_FUEL_LEFT_1, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>FUEL_LEFT_1_ON</label>
+                            <script>1 (>L:S_OH_FUEL_LEFT_1, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>FUEL_LEFT_1_TOGGLE</label>
+                            <script>(L:S_OH_FUEL_LEFT_1, Number) ! (>L:S_OH_FUEL_LEFT_1, Number) </script>
+                        </Script>
+                    
+                
+            
+                
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>FUEL_LEFT_2_OFF</label>
+                            <script>0 (>L:S_OH_FUEL_LEFT_2, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>FUEL_LEFT_2_ON</label>
+                            <script>1 (>L:S_OH_FUEL_LEFT_2, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>FUEL_LEFT_2_TOGGLE</label>
+                            <script>(L:S_OH_FUEL_LEFT_2, Number) ! (>L:S_OH_FUEL_LEFT_2, Number) </script>
+                        </Script>
+                    
+                
+            
+                
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>FUEL_RIGHT_1_OFF</label>
+                            <script>0 (>L:S_OH_FUEL_RIGHT_1, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>FUEL_RIGHT_1_ON</label>
+                            <script>1 (>L:S_OH_FUEL_RIGHT_1, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>FUEL_RIGHT_1_TOGGLE</label>
+                            <script>(L:S_OH_FUEL_RIGHT_1, Number) ! (>L:S_OH_FUEL_RIGHT_1, Number) </script>
+                        </Script>
+                    
+                
+            
+                
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>FUEL_RIGHT_2_OFF</label>
+                            <script>0 (>L:S_OH_FUEL_RIGHT_2, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>FUEL_RIGHT_2_ON</label>
+                            <script>1 (>L:S_OH_FUEL_RIGHT_2, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>FUEL_RIGHT_2_TOGGLE</label>
+                            <script>(L:S_OH_FUEL_RIGHT_2, Number) ! (>L:S_OH_FUEL_RIGHT_2, Number) </script>
+                        </Script>
+                    
+                
+            
+                
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>FUEL_CENTER_1_OFF</label>
+                            <script>0 (>L:S_OH_FUEL_CENTER_1, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>FUEL_CENTER_1_ON</label>
+                            <script>1 (>L:S_OH_FUEL_CENTER_1, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>FUEL_CENTER_1_TOGGLE</label>
+                            <script>(L:S_OH_FUEL_CENTER_1, Number) ! (>L:S_OH_FUEL_CENTER_1, Number) </script>
+                        </Script>
+                    
+                
+            
+                
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>FUEL_CENTER_2_OFF</label>
+                            <script>0 (>L:S_OH_FUEL_CENTER_2, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>FUEL_CENTER_2_ON</label>
+                            <script>1 (>L:S_OH_FUEL_CENTER_2, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>FUEL_CENTER_2_TOGGLE</label>
+                            <script>(L:S_OH_FUEL_CENTER_2, Number) ! (>L:S_OH_FUEL_CENTER_2, Number) </script>
+                        </Script>
+                    
+                
+            
+                
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>FUEL_XFEED_OFF</label>
+                            <script>0 (>L:S_OH_FUEL_XFEED, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>FUEL_XFEED_ON</label>
+                            <script>1 (>L:S_OH_FUEL_XFEED, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>FUEL_XFEED_TOGGLE</label>
+                            <script>(L:S_OH_FUEL_XFEED, Number) ! (>L:S_OH_FUEL_XFEED, Number) </script>
+                        </Script>
+                    
+                
+            
+                
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>FUEL_MODE_SEL_MAN</label>
+                            <script>0 (>L:S_OH_FUEL_MODE_SEL, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>FUEL_MODE_SEL_AUTO</label>
+                            <script>1 (>L:S_OH_FUEL_MODE_SEL, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>FUEL_MODE_SEL_TOGGLE</label>
+                            <script>(L:S_OH_FUEL_MODE_SEL, Number) ! (>L:S_OH_FUEL_MODE_SEL, Number) </script>
+                        </Script>
+                    
+                
+            
+                
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>PNEUMATIC_ENG1_ANTI_ICE_OFF</label>
+                            <script>0 (>L:S_OH_PNEUMATIC_ENG1_ANTI_ICE, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>PNEUMATIC_ENG1_ANTI_ICE_ON</label>
+                            <script>1 (>L:S_OH_PNEUMATIC_ENG1_ANTI_ICE, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>PNEUMATIC_ENG1_ANTI_ICE_TOGGLE</label>
+                            <script>(L:S_OH_PNEUMATIC_ENG1_ANTI_ICE, Number) ! (>L:S_OH_PNEUMATIC_ENG1_ANTI_ICE, Number) </script>
+                        </Script>
+                    
+                
+            
+                
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>PNEUMATIC_ENG2_ANTI_ICE_OFF</label>
+                            <script>0 (>L:S_OH_PNEUMATIC_ENG2_ANTI_ICE, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>PNEUMATIC_ENG2_ANTI_ICE_ON</label>
+                            <script>1 (>L:S_OH_PNEUMATIC_ENG2_ANTI_ICE, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>PNEUMATIC_ENG2_ANTI_ICE_TOGGLE</label>
+                            <script>(L:S_OH_PNEUMATIC_ENG2_ANTI_ICE, Number) ! (>L:S_OH_PNEUMATIC_ENG2_ANTI_ICE, Number) </script>
+                        </Script>
+                    
+                
+            
+                
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>PNEUMATIC_WING_ANTI_ICE_OFF</label>
+                            <script>0 (>L:S_OH_PNEUMATIC_WING_ANTI_ICE, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>PNEUMATIC_WING_ANTI_ICE_ON</label>
+                            <script>1 (>L:S_OH_PNEUMATIC_WING_ANTI_ICE, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>PNEUMATIC_WING_ANTI_ICE_TOGGLE</label>
+                            <script>(L:S_OH_PNEUMATIC_WING_ANTI_ICE, Number) ! (>L:S_OH_PNEUMATIC_WING_ANTI_ICE, Number) </script>
+                        </Script>
+                    
+                
+            
+                
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>PROBE_HEAT_AUTO</label>
+                            <script>0 (>L:S_OH_PROBE_HEAT, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>PROBE_HEAT_ON</label>
+                            <script>1 (>L:S_OH_PROBE_HEAT, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>PROBE_HEAT_TOGGLE</label>
+                            <script>(L:S_OH_PROBE_HEAT, Number) ! (>L:S_OH_PROBE_HEAT, Number) </script>
+                        </Script>
+                    
+                
+            
+                
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>PNEUMATIC_PACK_1_OFF</label>
+                            <script>0 (>L:S_OH_PNEUMATIC_PACK_1, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>PNEUMATIC_PACK_1_ON</label>
+                            <script>1 (>L:S_OH_PNEUMATIC_PACK_1, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>PNEUMATIC_PACK_1_TOGGLE</label>
+                            <script>(L:S_OH_PNEUMATIC_PACK_1, Number) ! (>L:S_OH_PNEUMATIC_PACK_1, Number) </script>
+                        </Script>
+                    
+                
+            
+                
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>PNEUMATIC_PACK_2_OFF</label>
+                            <script>0 (>L:S_OH_PNEUMATIC_PACK_2, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>PNEUMATIC_PACK_2_ON</label>
+                            <script>1 (>L:S_OH_PNEUMATIC_PACK_2, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_OH</group>
+                            <label>PNEUMATIC_PACK_2_TOGGLE</label>
+                            <script>(L:S_OH_PNEUMATIC_PACK_2, Number) ! (>L:S_OH_PNEUMATIC_PACK_2, Number) </script>
+                        </Script>
+                    
+                
+            
+        
+            
+                
+                    
+                        <Script>
+                            <group>FNX320_MISC</group>
+                            <label>CAPT_TILLER_PEDAL_DISCONNECT_OFF</label>
+                            <script>0 (>L:S_FC_CAPT_TILLER_PEDAL_DISCONNECT, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_MISC</group>
+                            <label>CAPT_TILLER_PEDAL_DISCONNECT_ON</label>
+                            <script>1 (>L:S_FC_CAPT_TILLER_PEDAL_DISCONNECT, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_MISC</group>
+                            <label>CAPT_TILLER_PEDAL_DISCONNECT_TOGGLE</label>
+                            <script>(L:S_FC_CAPT_TILLER_PEDAL_DISCONNECT, Number) ! (>L:S_FC_CAPT_TILLER_PEDAL_DISCONNECT, Number) </script>
+                        </Script>
+                    
+                
+            
+                
+                    <Script>
+                        <group>FNX320_MISC</group>
+                        <label>CAPT_INST_DISCONNECT</label>
+                        <script>1 (>L:S_FC_CAPT_INST_DISCONNECT, Number) (SLEEP:100) 2 (>L:S_FC_CAPT_INST_DISCONNECT, Number) </script>
+                    </Script>
+                
+            
+                
+                    <Script>
+                        <group>FNX320_MISC</group>
+                        <label>THR_INST_DISCONNECT1</label>
+                        <script>1 (>L:S_FC_THR_INST_DISCONNECT1, Number) (SLEEP:100) 2 (>L:S_FC_THR_INST_DISCONNECT1, Number) </script>
+                    </Script>
+                
+            
+                
+                    <Script>
+                        <group>FNX320_MISC</group>
+                        <label>THR_INST_DISCONNECT2</label>
+                        <script>1 (>L:S_FC_THR_INST_DISCONNECT2, Number) (SLEEP:100) 2 (>L:S_FC_THR_INST_DISCONNECT2, Number) </script>
+                    </Script>
+                
+            
+                
+                    
+                        <Script>
+                            <group>FNX320_MISC</group>
+                            <label>EFB_VISIBLE_CAPT_OFF</label>
+                            <script>0 (>L:S_EFB_VISIBLE_CAPT, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_MISC</group>
+                            <label>EFB_VISIBLE_CAPT_ON</label>
+                            <script>1 (>L:S_EFB_VISIBLE_CAPT, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_MISC</group>
+                            <label>EFB_VISIBLE_CAPT_TOGGLE</label>
+                            <script>(L:S_EFB_VISIBLE_CAPT, Number) ! (>L:S_EFB_VISIBLE_CAPT, Number) </script>
+                        </Script>
+                    
+                
+            
+                
+                    
+                        <Script>
+                            <group>FNX320_MISC</group>
+                            <label>EFB_VISIBLE_FO_OFF</label>
+                            <script>0 (>L:S_EFB_VISIBLE_FO, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_MISC</group>
+                            <label>EFB_VISIBLE_FO_ON</label>
+                            <script>1 (>L:S_EFB_VISIBLE_FO, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_MISC</group>
+                            <label>EFB_VISIBLE_FO_TOGGLE</label>
+                            <script>(L:S_EFB_VISIBLE_FO, Number) ! (>L:S_EFB_VISIBLE_FO, Number) </script>
+                        </Script>
+                    
+                
+            
+                
+                    
+                        <Script>
+                            <group>FNX320_MISC</group>
+                            <label>WINDOW_BLINDS_CAPT_RAISE</label>
+                            <script>0 (>L:S_WINDOW_BLINDS_CAPT, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_MISC</group>
+                            <label>WINDOW_BLINDS_CAPT_LOWER</label>
+                            <script>1 (>L:S_WINDOW_BLINDS_CAPT, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_MISC</group>
+                            <label>WINDOW_BLINDS_CAPT_TOGGLE</label>
+                            <script>(L:S_WINDOW_BLINDS_CAPT, Number) ! (>L:S_WINDOW_BLINDS_CAPT, Number) </script>
+                        </Script>
+                    
+                
+            
+                
+                    
+                        <Script>
+                            <group>FNX320_MISC</group>
+                            <label>WINDOW_BLINDS_FO_RAISE</label>
+                            <script>0 (>L:S_WINDOW_BLINDS_FO, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_MISC</group>
+                            <label>WINDOW_BLINDS_FO_LOWER</label>
+                            <script>1 (>L:S_WINDOW_BLINDS_FO, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_MISC</group>
+                            <label>WINDOW_BLINDS_FO_TOGGLE</label>
+                            <script>(L:S_WINDOW_BLINDS_FO, Number) ! (>L:S_WINDOW_BLINDS_FO, Number) </script>
+                        </Script>
+                    
+                
+            
+                
+                    
+                        <Script>
+                            <group>FNX320_MISC</group>
+                            <label>WINDOW_BLINDS_REAR_CAPT_RAISE</label>
+                            <script>0 (>L:S_WINDOW_BLINDS_REAR_CAPT, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_MISC</group>
+                            <label>WINDOW_BLINDS_REAR_CAPT_LOWER</label>
+                            <script>1 (>L:S_WINDOW_BLINDS_REAR_CAPT, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_MISC</group>
+                            <label>WINDOW_BLINDS_REAR_CAPT_TOGGLE</label>
+                            <script>(L:S_WINDOW_BLINDS_REAR_CAPT, Number) ! (>L:S_WINDOW_BLINDS_REAR_CAPT, Number) </script>
+                        </Script>
+                    
+                
+            
+                
+                    
+                        <Script>
+                            <group>FNX320_MISC</group>
+                            <label>WINDOW_BLINDS_REAR_FO_RAISE</label>
+                            <script>0 (>L:S_WINDOW_BLINDS_REAR_FO, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_MISC</group>
+                            <label>WINDOW_BLINDS_REAR_FO_LOWER</label>
+                            <script>1 (>L:S_WINDOW_BLINDS_REAR_FO, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_MISC</group>
+                            <label>WINDOW_BLINDS_REAR_FO_TOGGLE</label>
+                            <script>(L:S_WINDOW_BLINDS_REAR_FO, Number) ! (>L:S_WINDOW_BLINDS_REAR_FO, Number) </script>
+                        </Script>
+                    
+                
+            
+                
+                    
+                        <Script>
+                            <group>FNX320_MISC</group>
+                            <label>SUNSHADE_CAPT_RAISE</label>
+                            <script>0 (>L:S_SUNSHADE_CAPT, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_MISC</group>
+                            <label>SUNSHADE_CAPT_LOWER</label>
+                            <script>1 (>L:S_SUNSHADE_CAPT, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_MISC</group>
+                            <label>SUNSHADE_CAPT_TOGGLE</label>
+                            <script>(L:S_SUNSHADE_CAPT, Number) ! (>L:S_SUNSHADE_CAPT, Number) </script>
+                        </Script>
+                    
+                
+            
+                
+                    
+                        <Script>
+                            <group>FNX320_MISC</group>
+                            <label>SUNSHADE_FO_RAISE</label>
+                            <script>0 (>L:S_SUNSHADE_FO, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_MISC</group>
+                            <label>SUNSHADE_FO_LOWER</label>
+                            <script>1 (>L:S_SUNSHADE_FO, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_MISC</group>
+                            <label>SUNSHADE_FO_TOGGLE</label>
+                            <script>(L:S_SUNSHADE_FO, Number) ! (>L:S_SUNSHADE_FO, Number) </script>
+                        </Script>
+                    
+                
+            
+                
+                    <Script>
+                        <group>FNX320_MISC</group>
+                        <label>MIP_CHRONO_CAPT</label>
+                        <script>1 (>L:S_MIP_CHRONO_CAPT, Number) (SLEEP:100) 2 (>L:S_MIP_CHRONO_CAPT, Number) </script>
+                    </Script>
+                
+            
+                
+                    <Script>
+                        <group>FNX320_MISC</group>
+                        <label>MIP_CHRONO_FO</label>
+                        <script>1 (>L:S_MIP_CHRONO_FO, Number) (SLEEP:100) 2 (>L:S_MIP_CHRONO_FO, Number) </script>
+                    </Script>
+                
+            
+                
+                    <Script>
+                        <group>FNX320_MISC</group>
+                        <label>MIP_CLOCK_RST</label>
+                        <script>1 (>L:S_MIP_CLOCK_RST, Number) (SLEEP:100) 2 (>L:S_MIP_CLOCK_RST, Number) </script>
+                    </Script>
+                
+            
+                
+                    <Script>
+                        <group>FNX320_MISC</group>
+                        <label>MIP_CLOCK_CHR</label>
+                        <script>1 (>L:S_MIP_CLOCK_CHR, Number) (SLEEP:100) 2 (>L:S_MIP_CLOCK_CHR, Number) </script>
+                    </Script>
+                
+            
+                
+                    
+                        <Script>
+                            <group>FNX320_MISC</group>
+                            <label>MIP_CLOCK_ET_RUN</label>
+                            <script>0 (>L:S_MIP_CLOCK_ET, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_MISC</group>
+                            <label>MIP_CLOCK_ET_STP</label>
+                            <script>1 (>L:S_MIP_CLOCK_ET, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_MISC</group>
+                            <label>MIP_CLOCK_ET_RST</label>
+                            <script>2 (>L:S_MIP_CLOCK_ET, Number) </script>
+                        </Script>
+                    
+                
+            
+        
+            
+                
+                    
+                        <Script>
+                            <group>FNX320_PED</group>
+                            <label>ENG_MASTER_1_OFF</label>
+                            <script>0 (>L:S_ENG_MASTER_1, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_PED</group>
+                            <label>ENG_MASTER_1_ON</label>
+                            <script>1 (>L:S_ENG_MASTER_1, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_PED</group>
+                            <label>ENG_MASTER_1_TOGGLE</label>
+                            <script>(L:S_ENG_MASTER_1, Number) ! (>L:S_ENG_MASTER_1, Number) </script>
+                        </Script>
+                    
+                
+            
+                
+                    
+                        <Script>
+                            <group>FNX320_PED</group>
+                            <label>ENG_MASTER_2_OFF</label>
+                            <script>0 (>L:S_ENG_MASTER_2, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_PED</group>
+                            <label>ENG_MASTER_2_ON</label>
+                            <script>1 (>L:S_ENG_MASTER_2, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_PED</group>
+                            <label>ENG_MASTER_2_TOGGLE</label>
+                            <script>(L:S_ENG_MASTER_2, Number) ! (>L:S_ENG_MASTER_2, Number) </script>
+                        </Script>
+                    
+                
+            
+                
+                    
+                        <Script>
+                            <group>FNX320_PED</group>
+                            <label>ENG_MODE_CRANK</label>
+                            <script>0 (>L:S_ENG_MODE, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_PED</group>
+                            <label>ENG_MODE_NORM</label>
+                            <script>1 (>L:S_ENG_MODE, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_PED</group>
+                            <label>ENG_MODE_START</label>
+                            <script>2 (>L:S_ENG_MODE, Number) </script>
+                        </Script>
+                    
+                
+            
+                
+                    
+                        <Script>
+                            <group>FNX320_PED</group>
+                            <label>XPDR_OPERATION_STBY</label>
+                            <script>0 (>L:S_XPDR_OPERATION, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_PED</group>
+                            <label>XPDR_OPERATION_AUTO</label>
+                            <script>1 (>L:S_XPDR_OPERATION, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_PED</group>
+                            <label>XPDR_OPERATION_ON</label>
+                            <script>2 (>L:S_XPDR_OPERATION, Number) </script>
+                        </Script>
+                    
+                
+            
+                
+                    
+                        <Script>
+                            <group>FNX320_PED</group>
+                            <label>XPDR_ALTREPORTING_OFF</label>
+                            <script>0 (>L:S_XPDR_ALTREPORTING, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_PED</group>
+                            <label>XPDR_ALTREPORTING_ON</label>
+                            <script>1 (>L:S_XPDR_ALTREPORTING, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_PED</group>
+                            <label>XPDR_ALTREPORTING_TOGGLE</label>
+                            <script>(L:S_XPDR_ALTREPORTING, Number) ! (>L:S_XPDR_ALTREPORTING, Number) </script>
+                        </Script>
+                    
+                
+            
+                
+                    
+                        <Script>
+                            <group>FNX320_PED</group>
+                            <label>XPDR_MODE_STBY</label>
+                            <script>0 (>L:S_XPDR_MODE, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_PED</group>
+                            <label>XPDR_MODE_TA</label>
+                            <script>1 (>L:S_XPDR_MODE, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_PED</group>
+                            <label>XPDR_MODE_TARA</label>
+                            <script>2 (>L:S_XPDR_MODE, Number) </script>
+                        </Script>
+                    
+                
+            
+                
+                    <Script>
+                        <group>FNX320_PED</group>
+                        <label>XPDR_IDENT</label>
+                        <script>1 (>L:S_XPDR_IDENT, Number) (SLEEP:100) 2 (>L:S_XPDR_IDENT, Number) </script>
+                    </Script>
+                
+            
+                
+                    
+                        <Script>
+                            <group>FNX320_PED</group>
+                            <label>SPEEDBRAKE_ARM</label>
+                            <script>0 (>L:A_FC_SPEEDBRAKE, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_PED</group>
+                            <label>SPEEDBRAKE_RETRACT</label>
+                            <script>1 (>L:A_FC_SPEEDBRAKE, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_PED</group>
+                            <label>SPEEDBRAKE_DETENT</label>
+                            <script>2 (>L:A_FC_SPEEDBRAKE, Number) </script>
+                        </Script>
+                    
+                
+            
+                
+                    
+                        <Script>
+                            <group>FNX320_PED</group>
+                            <label>FLAPS_UP</label>
+                            <script>0 (>L:S_FC_FLAPS, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_PED</group>
+                            <label>FLAPS_1</label>
+                            <script>1 (>L:S_FC_FLAPS, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_PED</group>
+                            <label>FLAPS_2</label>
+                            <script>2 (>L:S_FC_FLAPS, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_PED</group>
+                            <label>FLAPS_3</label>
+                            <script>3 (>L:S_FC_FLAPS, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_PED</group>
+                            <label>FLAPS_FULL</label>
+                            <script>4 (>L:S_FC_FLAPS, Number) </script>
+                        </Script>
+                    
+                
+            
+                
+                    
+                        <Script>
+                            <group>FNX320_PED</group>
+                            <label>PARKING_BRAKE_OFF</label>
+                            <script>0 (>L:S_MIP_PARKING_BRAKE, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_PED</group>
+                            <label>PARKING_BRAKE_ON</label>
+                            <script>1 (>L:S_MIP_PARKING_BRAKE, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_PED</group>
+                            <label>PARKING_BRAKE_TOGGLE</label>
+                            <script>(L:S_MIP_PARKING_BRAKE, Number) ! (>L:S_MIP_PARKING_BRAKE, Number) </script>
+                        </Script>
+                    
+                
+            
+        
+            
+                
+                    <Script>
+                        <group>FNX320_EFIS1</group>
+                        <label>BARO_INC</label>
+                        <script>(L:E_FCU_EFIS1_BARO, Number) ++ (>L:E_FCU_EFIS1_BARO, Number) </script>
+                    </Script>
+                
+            
+                
+                    <Script>
+                        <group>FNX320_EFIS1</group>
+                        <label>BARO_DEC</label>
+                        <script>(L:E_FCU_EFIS1_BARO, Number) -- (>L:E_FCU_EFIS1_BARO, Number) </script>
+                    </Script>
+                
+            
+                
+                    <Script>
+                        <group>FNX320_EFIS1</group>
+                        <label>FD</label>
+                        <script>1 (>L:S_FCU_EFIS1_FD, Number) (SLEEP:100) 2 (>L:S_FCU_EFIS1_FD, Number) </script>
+                    </Script>
+                
+            
+                
+                    <Script>
+                        <group>FNX320_EFIS1</group>
+                        <label>LS</label>
+                        <script>1 (>L:S_FCU_EFIS1_LS, Number) (SLEEP:100) 2 (>L:S_FCU_EFIS1_LS, Number) </script>
+                    </Script>
+                
+            
+                
+                    <Script>
+                        <group>FNX320_EFIS1</group>
+                        <label>CSTR</label>
+                        <script>1 (>L:S_FCU_EFIS1_CSTR, Number) (SLEEP:100) 2 (>L:S_FCU_EFIS1_CSTR, Number) </script>
+                    </Script>
+                
+            
+                
+                    <Script>
+                        <group>FNX320_EFIS1</group>
+                        <label>WPT</label>
+                        <script>1 (>L:S_FCU_EFIS1_WPT, Number) (SLEEP:100) 2 (>L:S_FCU_EFIS1_WPT, Number) </script>
+                    </Script>
+                
+            
+                
+                    <Script>
+                        <group>FNX320_EFIS1</group>
+                        <label>VORD</label>
+                        <script>1 (>L:S_FCU_EFIS1_VORD, Number) (SLEEP:100) 2 (>L:S_FCU_EFIS1_VORD, Number) </script>
+                    </Script>
+                
+            
+                
+                    <Script>
+                        <group>FNX320_EFIS1</group>
+                        <label>NDB</label>
+                        <script>1 (>L:S_FCU_EFIS1_NDB, Number) (SLEEP:100) 2 (>L:S_FCU_EFIS1_NDB, Number) </script>
+                    </Script>
+                
+            
+                
+                    <Script>
+                        <group>FNX320_EFIS1</group>
+                        <label>ARPT</label>
+                        <script>1 (>L:S_FCU_EFIS1_ARPT, Number) (SLEEP:100) 2 (>L:S_FCU_EFIS1_ARPT, Number) </script>
+                    </Script>
+                
+            
+                
+                    
+                        <Script>
+                            <group>FNX320_EFIS1</group>
+                            <label>ND_MODE_ILS</label>
+                            <script>0 (>L:S_FCU_EFIS1_ND_MODE, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_EFIS1</group>
+                            <label>ND_MODE_VOR</label>
+                            <script>1 (>L:S_FCU_EFIS1_ND_MODE, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_EFIS1</group>
+                            <label>ND_MODE_NAV</label>
+                            <script>2 (>L:S_FCU_EFIS1_ND_MODE, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_EFIS1</group>
+                            <label>ND_MODE_ARC</label>
+                            <script>3 (>L:S_FCU_EFIS1_ND_MODE, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_EFIS1</group>
+                            <label>ND_MODE_PLAN</label>
+                            <script>4 (>L:S_FCU_EFIS1_ND_MODE, Number) </script>
+                        </Script>
+                    
+                
+            
+                
+                    <Script>
+                        <group>FNX320_EFIS1</group>
+                        <label>ND_MODE_INC</label>
+                        <script>(L:S_FCU_EFIS1_ND_MODE, Number) ++ 5 min (>L:S_FCU_EFIS1_ND_MODE, Number) </script>
+                    </Script>
+                
+            
+                
+                    <Script>
+                        <group>FNX320_EFIS1</group>
+                        <label>ND_MODE_DEC</label>
+                        <script>(L:S_FCU_EFIS1_ND_MODE, Number) -- (>L:S_FCU_EFIS1_ND_MODE, Number) </script>
+                    </Script>
+                
+            
+                
+                    
+                        <Script>
+                            <group>FNX320_EFIS1</group>
+                            <label>ND_ZOOM_10</label>
+                            <script>0 (>L:S_FCU_EFIS1_ND_ZOOM, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_EFIS1</group>
+                            <label>ND_ZOOM_20</label>
+                            <script>1 (>L:S_FCU_EFIS1_ND_ZOOM, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_EFIS1</group>
+                            <label>ND_ZOOM_40</label>
+                            <script>2 (>L:S_FCU_EFIS1_ND_ZOOM, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_EFIS1</group>
+                            <label>ND_ZOOM_80</label>
+                            <script>3 (>L:S_FCU_EFIS1_ND_ZOOM, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_EFIS1</group>
+                            <label>ND_ZOOM_160</label>
+                            <script>4 (>L:S_FCU_EFIS1_ND_ZOOM, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_EFIS1</group>
+                            <label>ND_ZOOM_320</label>
+                            <script>5 (>L:S_FCU_EFIS1_ND_ZOOM, Number) </script>
+                        </Script>
+                    
+                
+            
+                
+                    <Script>
+                        <group>FNX320_EFIS1</group>
+                        <label>ND_ZOOM_INC</label>
+                        <script>(L:S_FCU_EFIS1_ND_ZOOM, Number) ++ 5 min (>L:S_FCU_EFIS1_ND_ZOOM, Number) </script>
+                    </Script>
+                
+            
+                
+                    <Script>
+                        <group>FNX320_EFIS1</group>
+                        <label>ND_ZOOM_DEC</label>
+                        <script>(L:S_FCU_EFIS1_ND_ZOOM, Number) -- (>L:S_FCU_EFIS1_ND_ZOOM, Number) </script>
+                    </Script>
+                
+            
+                
+                    
+                        <Script>
+                            <group>FNX320_EFIS1</group>
+                            <label>NAV1_ADF</label>
+                            <script>0 (>L:S_FCU_EFIS1_NAV1, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_EFIS1</group>
+                            <label>NAV1_OFF</label>
+                            <script>1 (>L:S_FCU_EFIS1_NAV1, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_EFIS1</group>
+                            <label>NAV1_VOR</label>
+                            <script>2 (>L:S_FCU_EFIS1_NAV1, Number) </script>
+                        </Script>
+                    
+                
+            
+                
+                    
+                        <Script>
+                            <group>FNX320_EFIS1</group>
+                            <label>NAV2_ADF</label>
+                            <script>0 (>L:S_FCU_EFIS1_NAV2, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_EFIS1</group>
+                            <label>NAV2_OFF</label>
+                            <script>1 (>L:S_FCU_EFIS1_NAV2, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_EFIS1</group>
+                            <label>NAV2_VOR</label>
+                            <script>2 (>L:S_FCU_EFIS1_NAV2, Number) </script>
+                        </Script>
+                    
+                
+            
+                
+                    
+                        <Script>
+                            <group>FNX320_EFIS1</group>
+                            <label>BARO_MODE_HPA</label>
+                            <script>0 (>L:S_FCU_EFIS1_BARO_MODE, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_EFIS1</group>
+                            <label>BARO_MODE_INHG</label>
+                            <script>1 (>L:S_FCU_EFIS1_BARO_MODE, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_EFIS1</group>
+                            <label>BARO_MODE_TOGGLE</label>
+                            <script>(L:S_FCU_EFIS1_BARO_MODE, Number) ! (>L:S_FCU_EFIS1_BARO_MODE, Number) </script>
+                        </Script>
+                    
+                
+            
+                
+                    
+                        <Script>
+                            <group>FNX320_EFIS1</group>
+                            <label>BARO_STD_OFF</label>
+                            <script>0 (>L:S_FCU_EFIS1_BARO_STD, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_EFIS1</group>
+                            <label>BARO_STD_ON</label>
+                            <script>1 (>L:S_FCU_EFIS1_BARO_STD, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_EFIS1</group>
+                            <label>BARO_STD_TOGGLE</label>
+                            <script>(L:S_FCU_EFIS1_BARO_STD, Number) ! (>L:S_FCU_EFIS1_BARO_STD, Number) </script>
+                        </Script>
+                    
+                
+            
+        
+            
+                
+                    <Script>
+                        <group>FNX320_EFIS2</group>
+                        <label>BARO_INC</label>
+                        <script>(L:E_FCU_EFIS2_BARO, Number) ++ (>L:E_FCU_EFIS2_BARO, Number) </script>
+                    </Script>
+                
+            
+                
+                    <Script>
+                        <group>FNX320_EFIS2</group>
+                        <label>BARO_DEC</label>
+                        <script>(L:E_FCU_EFIS2_BARO, Number) -- (>L:E_FCU_EFIS2_BARO, Number) </script>
+                    </Script>
+                
+            
+                
+                    <Script>
+                        <group>FNX320_EFIS2</group>
+                        <label>FD</label>
+                        <script>1 (>L:S_FCU_EFIS2_FD, Number) (SLEEP:100) 2 (>L:S_FCU_EFIS2_FD, Number) </script>
+                    </Script>
+                
+            
+                
+                    <Script>
+                        <group>FNX320_EFIS2</group>
+                        <label>LS</label>
+                        <script>1 (>L:S_FCU_EFIS2_LS, Number) (SLEEP:100) 2 (>L:S_FCU_EFIS2_LS, Number) </script>
+                    </Script>
+                
+            
+                
+                    <Script>
+                        <group>FNX320_EFIS2</group>
+                        <label>CSTR</label>
+                        <script>1 (>L:S_FCU_EFIS2_CSTR, Number) (SLEEP:100) 2 (>L:S_FCU_EFIS2_CSTR, Number) </script>
+                    </Script>
+                
+            
+                
+                    <Script>
+                        <group>FNX320_EFIS2</group>
+                        <label>WPT</label>
+                        <script>1 (>L:S_FCU_EFIS2_WPT, Number) (SLEEP:100) 2 (>L:S_FCU_EFIS2_WPT, Number) </script>
+                    </Script>
+                
+            
+                
+                    <Script>
+                        <group>FNX320_EFIS2</group>
+                        <label>VORD</label>
+                        <script>1 (>L:S_FCU_EFIS2_VORD, Number) (SLEEP:100) 2 (>L:S_FCU_EFIS2_VORD, Number) </script>
+                    </Script>
+                
+            
+                
+                    <Script>
+                        <group>FNX320_EFIS2</group>
+                        <label>NDB</label>
+                        <script>1 (>L:S_FCU_EFIS2_NDB, Number) (SLEEP:100) 2 (>L:S_FCU_EFIS2_NDB, Number) </script>
+                    </Script>
+                
+            
+                
+                    <Script>
+                        <group>FNX320_EFIS2</group>
+                        <label>ARPT</label>
+                        <script>1 (>L:S_FCU_EFIS2_ARPT, Number) (SLEEP:100) 2 (>L:S_FCU_EFIS2_ARPT, Number) </script>
+                    </Script>
+                
+            
+                
+                    
+                        <Script>
+                            <group>FNX320_EFIS2</group>
+                            <label>ND_MODE_ILS</label>
+                            <script>0 (>L:S_FCU_EFIS2_ND_MODE, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_EFIS2</group>
+                            <label>ND_MODE_VOR</label>
+                            <script>1 (>L:S_FCU_EFIS2_ND_MODE, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_EFIS2</group>
+                            <label>ND_MODE_NAV</label>
+                            <script>2 (>L:S_FCU_EFIS2_ND_MODE, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_EFIS2</group>
+                            <label>ND_MODE_ARC</label>
+                            <script>3 (>L:S_FCU_EFIS2_ND_MODE, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_EFIS2</group>
+                            <label>ND_MODE_PLAN</label>
+                            <script>4 (>L:S_FCU_EFIS2_ND_MODE, Number) </script>
+                        </Script>
+                    
+                
+            
+                
+                    <Script>
+                        <group>FNX320_EFIS2</group>
+                        <label>ND_MODE_INC</label>
+                        <script>(L:S_FCU_EFIS2_ND_MODE, Number) ++ 5 min (>L:S_FCU_EFIS2_ND_MODE, Number) </script>
+                    </Script>
+                
+            
+                
+                    <Script>
+                        <group>FNX320_EFIS2</group>
+                        <label>ND_MODE_DEC</label>
+                        <script>(L:S_FCU_EFIS2_ND_MODE, Number) -- (>L:S_FCU_EFIS2_ND_MODE, Number) </script>
+                    </Script>
+                
+            
+                
+                    
+                        <Script>
+                            <group>FNX320_EFIS2</group>
+                            <label>ND_ZOOM_10</label>
+                            <script>0 (>L:S_FCU_EFIS2_ND_ZOOM, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_EFIS2</group>
+                            <label>ND_ZOOM_20</label>
+                            <script>1 (>L:S_FCU_EFIS2_ND_ZOOM, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_EFIS2</group>
+                            <label>ND_ZOOM_40</label>
+                            <script>2 (>L:S_FCU_EFIS2_ND_ZOOM, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_EFIS2</group>
+                            <label>ND_ZOOM_80</label>
+                            <script>3 (>L:S_FCU_EFIS2_ND_ZOOM, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_EFIS2</group>
+                            <label>ND_ZOOM_160</label>
+                            <script>4 (>L:S_FCU_EFIS2_ND_ZOOM, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_EFIS2</group>
+                            <label>ND_ZOOM_320</label>
+                            <script>5 (>L:S_FCU_EFIS2_ND_ZOOM, Number) </script>
+                        </Script>
+                    
+                
+            
+                
+                    <Script>
+                        <group>FNX320_EFIS2</group>
+                        <label>ND_ZOOM_INC</label>
+                        <script>(L:S_FCU_EFIS2_ND_ZOOM, Number) ++ 5 min (>L:S_FCU_EFIS2_ND_ZOOM, Number) </script>
+                    </Script>
+                
+            
+                
+                    <Script>
+                        <group>FNX320_EFIS2</group>
+                        <label>ND_ZOOM_DEC</label>
+                        <script>(L:S_FCU_EFIS2_ND_ZOOM, Number) -- (>L:S_FCU_EFIS2_ND_ZOOM, Number) </script>
+                    </Script>
+                
+            
+                
+                    
+                        <Script>
+                            <group>FNX320_EFIS2</group>
+                            <label>NAV1_ADF</label>
+                            <script>0 (>L:S_FCU_EFIS2_NAV1, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_EFIS2</group>
+                            <label>NAV1_OFF</label>
+                            <script>1 (>L:S_FCU_EFIS2_NAV1, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_EFIS2</group>
+                            <label>NAV1_VOR</label>
+                            <script>2 (>L:S_FCU_EFIS2_NAV1, Number) </script>
+                        </Script>
+                    
+                
+            
+                
+                    
+                        <Script>
+                            <group>FNX320_EFIS2</group>
+                            <label>NAV2_ADF</label>
+                            <script>0 (>L:S_FCU_EFIS2_NAV2, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_EFIS2</group>
+                            <label>NAV2_OFF</label>
+                            <script>1 (>L:S_FCU_EFIS2_NAV2, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_EFIS2</group>
+                            <label>NAV2_VOR</label>
+                            <script>2 (>L:S_FCU_EFIS2_NAV2, Number) </script>
+                        </Script>
+                    
+                
+            
+                
+                    
+                        <Script>
+                            <group>FNX320_EFIS2</group>
+                            <label>BARO_MODE_HPA</label>
+                            <script>0 (>L:S_FCU_EFIS2_BARO_MODE, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_EFIS2</group>
+                            <label>BARO_MODE_INHG</label>
+                            <script>1 (>L:S_FCU_EFIS2_BARO_MODE, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_EFIS2</group>
+                            <label>BARO_MODE_TOGGLE</label>
+                            <script>(L:S_FCU_EFIS2_BARO_MODE, Number) ! (>L:S_FCU_EFIS2_BARO_MODE, Number) </script>
+                        </Script>
+                    
+                
+            
+                
+                    
+                        <Script>
+                            <group>FNX320_EFIS2</group>
+                            <label>BARO_STD_OFF</label>
+                            <script>0 (>L:S_FCU_EFIS2_BARO_STD, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_EFIS2</group>
+                            <label>BARO_STD_ON</label>
+                            <script>1 (>L:S_FCU_EFIS2_BARO_STD, Number) </script>
+                        </Script>
+                    
+                        <Script>
+                            <group>FNX320_EFIS2</group>
+                            <label>BARO_STD_TOGGLE</label>
+                            <script>(L:S_FCU_EFIS2_BARO_STD, Number) ! (>L:S_FCU_EFIS2_BARO_STD, Number) </script>
+                        </Script>
+                    
+                
+            
+        
+            
+                
+                    <Script>
+                        <group>FNX320_ECAM</group>
+                        <label>TO</label>
+                        <script>1 (>L:S_ECAM_TO, Number) (SLEEP:100) 2 (>L:S_ECAM_TO, Number) </script>
+                    </Script>
+                
+            
+                
+                    <Script>
+                        <group>FNX320_ECAM</group>
+                        <label>EMER_CANCEL</label>
+                        <script>1 (>L:S_ECAM_EMER_CANCEL, Number) (SLEEP:100) 2 (>L:S_ECAM_EMER_CANCEL, Number) </script>
+                    </Script>
+                
+            
+                
+                    <Script>
+                        <group>FNX320_ECAM</group>
+                        <label>ENG</label>
+                        <script>1 (>L:S_ECAM_ENGINE, Number) (SLEEP:100) 2 (>L:S_ECAM_ENGINE, Number) </script>
+                    </Script>
+                
+            
+                
+                    <Script>
+                        <group>FNX320_ECAM</group>
+                        <label>BLEED</label>
+                        <script>1 (>L:S_ECAM_BLEED, Number) (SLEEP:100) 2 (>L:S_ECAM_BLEED, Number) </script>
+                    </Script>
+                
+            
+                
+                    <Script>
+                        <group>FNX320_ECAM</group>
+                        <label>PRESS</label>
+                        <script>1 (>L:S_ECAM_CAB_PRESS, Number) (SLEEP:100) 2 (>L:S_ECAM_CAB_PRESS, Number) </script>
+                    </Script>
+                
+            
+                
+                    <Script>
+                        <group>FNX320_ECAM</group>
+                        <label>ELEC</label>
+                        <script>1 (>L:S_ECAM_ELEC, Number) (SLEEP:100) 2 (>L:S_ECAM_ELEC, Number) </script>
+                    </Script>
+                
+            
+                
+                    <Script>
+                        <group>FNX320_ECAM</group>
+                        <label>HYD</label>
+                        <script>1 (>L:S_ECAM_HYD, Number) (SLEEP:100) 2 (>L:S_ECAM_HYD, Number) </script>
+                    </Script>
+                
+            
+                
+                    <Script>
+                        <group>FNX320_ECAM</group>
+                        <label>FUEL</label>
+                        <script>1 (>L:S_ECAM_FUEL, Number) (SLEEP:100) 2 (>L:S_ECAM_FUEL, Number) </script>
+                    </Script>
+                
+            
+                
+                    <Script>
+                        <group>FNX320_ECAM</group>
+                        <label>APU</label>
+                        <script>1 (>L:S_ECAM_APU, Number) (SLEEP:100) 2 (>L:S_ECAM_APU, Number) </script>
+                    </Script>
+                
+            
+                
+                    <Script>
+                        <group>FNX320_ECAM</group>
+                        <label>COND</label>
+                        <script>1 (>L:S_ECAM_COND, Number) (SLEEP:100) 2 (>L:S_ECAM_COND, Number) </script>
+                    </Script>
+                
+            
+                
+                    <Script>
+                        <group>FNX320_ECAM</group>
+                        <label>WHEEL</label>
+                        <script>1 (>L:S_ECAM_WHEEL, Number) (SLEEP:100) 2 (>L:S_ECAM_WHEEL, Number) </script>
+                    </Script>
+                
+            
+                
+                    <Script>
+                        <group>FNX320_ECAM</group>
+                        <label>FCTL</label>
+                        <script>1 (>L:S_ECAM_FCTL, Number) (SLEEP:100) 2 (>L:S_ECAM_FCTL, Number) </script>
+                    </Script>
+                
+            
+                
+                    <Script>
+                        <group>FNX320_ECAM</group>
+                        <label>ALL</label>
+                        <script>1 (>L:S_ECAM_ALL, Number) (SLEEP:100) 2 (>L:S_ECAM_ALL, Number) </script>
+                    </Script>
+                
+            
+                
+                    <Script>
+                        <group>FNX320_ECAM</group>
+                        <label>CLR_LEFT</label>
+                        <script>1 (>L:S_ECAM_CLR_LEFT, Number) (SLEEP:100) 2 (>L:S_ECAM_CLR_LEFT, Number) </script>
+                    </Script>
+                
+            
+                
+                    <Script>
+                        <group>FNX320_ECAM</group>
+                        <label>CLR_RIGHT</label>
+                        <script>1 (>L:S_ECAM_CLR_RIGHT, Number) (SLEEP:100) 2 (>L:S_ECAM_CLR_RIGHT, Number) </script>
+                    </Script>
+                
+            
+                
+                    <Script>
+                        <group>FNX320_ECAM</group>
+                        <label>STS</label>
+                        <script>1 (>L:S_ECAM_STATUS, Number) (SLEEP:100) 2 (>L:S_ECAM_STATUS, Number) </script>
+                    </Script>
+                
+            
+                
+                    <Script>
+                        <group>FNX320_ECAM</group>
+                        <label>RCL</label>
+                        <script>1 (>L:S_ECAM_RCL, Number) (SLEEP:100) 2 (>L:S_ECAM_RCL, Number) </script>
+                    </Script>
+                
+            
+        
+    </scripts>
+</ScriptList>
